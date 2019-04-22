@@ -3,7 +3,8 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('data', views.data, name='data')
+    # path('data', views.data, name='data'),
+    path('play', views.play, name='play'),
 ]
 
 # Use static() to add url mapping to serve static files during development (only)
